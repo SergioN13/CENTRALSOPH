@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pedidos da Minha Namorada 💖</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+  <link rel="icon" href="favicon.jpeg" type="image/jpeg">
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="topo">
+  <h1>💌 Central de Pedidos</h1>
+  <p></p>
+</header>
+
+<main class="container">
+
+  <!-- FORMULÁRIO -->
+  <section class="card">
+    <h2></h2>Pedidos da minha mulher</h2>
+
+    <form id="formPedido">
+      <input type="text" id="titulo" placeholder="O que você quer que ele faça?" required>
+      <textarea id="descricao" placeholder="Detalhes do pedido 💬"></textarea>
+
+      <select id="prioridade">
+        <option value="Baixa">Baixa</option>
+        <option value="Media">Média</option>
+        <option value="Alta">Alta</option>
+      </select>
+
+      <p>PRAZO: </p>
+      <input type="date" id="prazo" required>
+      <button type="submit">Fazer Pedido 💕</button>
+    </form>
+  </section>
+
+  <!-- PEDIDOS -->
+  <section class="card">
+    <h2>📋 Pedidos</h2>
+    <div id="historicoPedidos" class="historico"></div>
+  </section>
+
+</main>
+
+<footer class="rodape">
+  <p>Feito com amor pelo JOLA</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

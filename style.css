@@ -1,0 +1,118 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body {
+  background: linear-gradient(135deg, #ff9a9e, #fad0c4);
+  min-height: 100vh;
+}
+
+.topo {
+  text-align: center;
+  padding: 30px 20px;
+  color: #fff;
+}
+
+.container {
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  display: grid;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 16px;
+  padding: 20px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+.card h2 {
+  margin-bottom: 15px;
+  color: #ff5a7a;
+}
+
+form input,
+form textarea,
+form select {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  border: 1px solid #ddd;
+}
+
+form textarea {
+  resize: vertical;
+  min-height: 80px;
+}
+
+form button {
+  width: 100%;
+  padding: 14px;
+  background: #ff5a7a;
+  color: #fff;
+  border: none;
+  border-radius: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+form button:hover {
+  background: #ff2f5b;
+}
+
+/* HISTÓRICO */
+.historico {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.item-historico {
+  background: #fff0f4;
+  border-left: 6px solid #ff5a7a;
+  border-radius: 10px;
+  padding: 12px;
+}
+
+.item-historico h4 {
+  margin-bottom: 5px;
+  color: #ff2f5b;
+}
+
+.item-historico small {
+  display: block;
+  color: #555;
+  margin-bottom: 3px;
+}
+
+.item-historico span {
+  font-size: 14px;
+}
+
+.rodape {
+  text-align: center;
+  padding: 15px;
+  color: #fff;
+}
+
+.acoes {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.item-historico .reenviar {
+  background: #3498db;
+}
+
+.item-historico .reenviar:hover {
+  background: #2980b9;
+}
